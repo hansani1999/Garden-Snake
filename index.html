@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bowlby+One+SC&family=Comic+Neue:wght@700&family=Lobster&family=Monda:wght@700&family=Rubik+Bubbles&family=Rubik+Moonrocks&family=Secular+One&family=Signika+Negative:wght@600&display=swap"
+          rel="stylesheet">
+    <title>Home</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            height: 100vh;
+            background-image: url("assets/images/garden3.png");
+            background-size: cover;
+        }
+
+        h1 {
+            font-family: 'Rubik Moonrocks', cursive;
+            font-size: 68px;
+            margin-bottom: 25px;
+            margin-top: 0;
+            color: white;
+        }
+
+        #game {
+            box-shadow: 10px 10px 20px black;
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+<h1>Garden Snake</h1>
+<canvas id="game"></canvas>
+<script src="assets/JQuery/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
